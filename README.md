@@ -4,6 +4,7 @@ Deploy high available Web App with AWS auto-scaling
 the above terraform code deploys a 2 tier Web Application with the following:
 
 1. Network
+
 -VPC: 
 
 -Public Subnets
