@@ -5,30 +5,30 @@ the above terraform code deploys a 2 tier Web Application with the following:
 
 1. Network
 
--VPC: 
+ -VPC: 
 
--Public Subnets
+ -Public Subnets
 
--Private Subnets
+ -Private Subnets
 
--Internet Gateway
+ -Internet Gateway
 
--NAT Gateway
+ -NAT Gateway
 
--Service endpoint to connect privately to S3.
+ -Service endpoint to connect privately to S3.
 
--Security Group
+ -Security Group
 
 2.Compute
--Auto-scaling group
+ -Auto-scaling group
 
--Application Load balancer
+ -Application Load balancer
 
 3.Storage
--S3 bucket to host applications files
+ -S3 bucket to host applications files
 
 4.IAM
--IAM role which grants EC2 access to S3 storage
+ -IAM role which grants EC2 access to S3 storage
 
 
 The application Load balancer resides in the public subnets in both AZ1 and AZ2 and is the entry point to Application. it has the target group as the auto-scaling group enables to ensure to always have enough capacity to handle the application load while being cost efficient.
