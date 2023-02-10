@@ -5,8 +5,11 @@ the above terraform code deploys a 2 tier Web Application with the following:
 
 1. Network
 -VPC: 
+
 -Public Subnets
+
 -Private Subnets
+
 -Internet Gateway
 -NAT Gateway
 -Service endpoint to connect privately to S3.
