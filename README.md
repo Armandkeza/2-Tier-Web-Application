@@ -11,12 +11,16 @@ the above terraform code deploys a 2 tier Web Application with the following:
 -Private Subnets
 
 -Internet Gateway
+
 -NAT Gateway
+
 -Service endpoint to connect privately to S3.
+
 -Security Group
 
 2.Compute
 -Auto-scaling group
+
 -Application Load balancer
 
 3.Storage
